@@ -36,10 +36,43 @@ li {
     width: 500px;
     margin-left: 4%;
     background-color: #e0e0e0;
-    margin-top: 5%;
+    margin-top: 1%;
     border-radius: 10px;
 }
 .precentacion {
     display: inline-flex;
-    margin-left: 50px;
+    margin-left: 150px;
+    margin-right: auto;
 }
+.Saludo p{
+    text-align:inherit;
+    text-align-last: justify;
+}
+.Saludo{
+    display: inline-block;
+}
+.Saludo div{
+    padding-left: 10px;
+}
+.Saludo button{
+    margin-top: 30px;
+    margin-left: 37%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.About-Me {
+    width: 900px;
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.About-Me p {
+    text-align: justify;
+}    
