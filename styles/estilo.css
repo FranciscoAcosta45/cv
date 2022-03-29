@@ -10,7 +10,7 @@ body{
 .barra ul {
     list-style-type: none;
 }
-li {
+.li {
     float: left;
 }
 .barra a{
@@ -75,4 +75,52 @@ li {
 }
 .About-Me p {
     text-align: justify;
-}    
+}
+.tecnologias{
+    display: inline-flex;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+}
+.contenidoTecnologias{
+    display: inline-block;
+    padding-left: 5px;
+}
+.skills{
+    margin-top: 60px;
+    margin-left: 170px;
+    width: 900px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.experiencia {
+    margin-top: 50px;
+    display: inline-flex;
+    margin-left: 150px;
+}
+.centrar{
+    padding-left: 130px;
+    padding-top: 10px;
+}
+.educacion{
+    margin-left: 50px;
+}
+.trabajos {
+    display: inline-block;
+    width: 450px;
+}
+.trabajos ul{
+    display: inline-block;
+}
+.trabajos li{
+    float: none;
+    margin-top: 3px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
